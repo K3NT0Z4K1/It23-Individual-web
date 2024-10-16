@@ -9,8 +9,8 @@
         }
 
         .container {
-            background: white;
-            padding: 20px;
+            background: #2b61d6;
+            padding: 40px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -25,16 +25,17 @@
             margin-top: 5px;
             border: 1px solid #ccc;
             border-radius: 5px;
+            margin-right: 20px;
         }
 
         button {
             width: 100%;
             padding: 10px;
-            background: #2b61d6;
-            border: none;
+            background: #5779c2;
             color: white;
             border-radius: 5px;
             cursor: pointer;
+            border-color: #ccc;
         }
 
         button:hover {
@@ -43,5 +44,10 @@
 
         #message {
             margin-top: 15px;
+        }
+        h2{
+            text-align: center;
+            text-decoration: double;
+            color: white;
         }
     
