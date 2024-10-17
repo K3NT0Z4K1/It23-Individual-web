@@ -58,9 +58,10 @@ section {
 }
 
 .course-item {
-    background: #f4f4f4;
+    background: #9eb2dd;
     padding: 20px;
     text-align: center;
+    border-color: #3463c7;
 }
 
 footer {
