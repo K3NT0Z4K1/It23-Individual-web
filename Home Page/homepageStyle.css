@@ -27,15 +27,6 @@ nav a {
     text-decoration: none;
 }
 
-.hero {
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-}
 
 .cta {
     background-color: #3463c7;
@@ -80,10 +71,7 @@ footer {
     font-size: 15px;
     font-weight: bold;
 }
-.highlight{
-    width: 450px;
-    height: 400px;
-}
+
 .about{
     color: #2b61d6;
     text-align: justify;
@@ -128,4 +116,22 @@ footer {
 
 #contact button:hover {
     background-color: #688bd6;
+}
+.hero {
+    display: flex;               
+    flex-direction: column;      /* Arrange items in a column */
+    align-items: center;         /* Center items horizontally */
+    text-align: center;          /* Center text */
+}
+
+.image-container {
+    display: flex;               /* Use flexbox for images */
+    justify-content: center;     /* Center images */
+    gap: 20px;                   /* Space between images */
+}
+
+.highlight {
+    max-width: 100%;            /* Ensure images are responsive */
+    height: auto;               /* Maintain aspect ratio */
+    width: 150px;               /* Set a specific width for consistency */
 }
