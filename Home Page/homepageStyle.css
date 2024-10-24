@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 
     font-family: Arial, sans-serif;
@@ -119,19 +123,19 @@ footer {
 }
 .hero {
     display: flex;               
-    flex-direction: column;      /* Arrange items in a column */
-    align-items: center;         /* Center items horizontally */
-    text-align: center;          /* Center text */
+    flex-direction: column;    
+    align-items: center;        
+    text-align: center;      
 }
 
 .image-container {
-    display: flex;               /* Use flexbox for images */
-    justify-content: center;     /* Center images */
-    gap: 20px;                   /* Space between images */
+    display: flex;               
+    justify-content: center;   
+    gap: 20px;                
 }
 
 .highlight {
-    max-width: 100%;            /* Ensure images are responsive */
-    height: auto;               /* Maintain aspect ratio */
-    width: 150px;               /* Set a specific width for consistency */
+    max-width: 100%;            
+    height: auto;              
+    width: 400px;             
 }

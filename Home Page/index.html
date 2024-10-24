@@ -24,8 +24,8 @@
         <p>Empowering learners through quality education.</p>
         <p class="cta">Explore Our Harvard Html,CSS and JavaScript Free Courses</p>
         <div class="image-container">
-            <img class="highlight" src="/Images/cs50web.png" alt="">
             <img class="highlight" src="/Images/others.jpg" alt="">
+            <img class="highlight" src="/Images/cs50web.png" alt="">
             <img class="highlight" src="/Images/otherss.jpg" alt="">
         </div>
     </section>
@@ -81,5 +81,22 @@
     <footer>
         <p>&copy; 2024 EduCenter. All rights reserved.</p>
     </footer>
+
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+    </script>
+    
 </body>
 </html>
